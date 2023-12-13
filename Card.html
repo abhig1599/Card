@@ -1,38 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+      <body>
+    <div class="card">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card Hover Effect</title>
-
-    <!-- icons link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Tailwind CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.5/dist/tailwind.min.css" rel="stylesheet">
-</head>
-
-<body class="bg-gray-200 flex justify-center items-center min-h-screen">
-    <div class="card w-80 h-80 bg-white rounded-xl relative transition-transform overflow-hidden">
-        <div class="profile-pic absolute w-full h-full top-0 left-0 rounded-xl z-10 border-4 border-white overflow-hidden transition-transform">
-            <img src="img/img (3).png" alt="Profile Image" class="w-full h-full object-cover transition-transform">
+        <div class="profile-pic">
+            <img src="https://i.pinimg.com/564x/e9/c4/2e/e9c42e19607ff4923ad0696f2f27e52c.jpg" alt="https://wall.alphacoders.com/big.php?i=1334174">
         </div>
-        <div class="details absolute left-4 right-4 bottom-4 z-20 top-4 bg-green-500 text-white rounded-2xl shadow-md overflow-hidden transition-all">
-            <div class="content absolute top-0 left-0 opacity-0 transition-all delay-500">
-                <h2 class="ml-4 text-2xl font-bold">RAYEN</h2>
-                <p class="tag ml-4 text-xs font-light">WEB DESIGNER</p>
-                <p class="about text-sm mt-4 mx-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis minima provident esse hic </p>
+
+        <div class="details">
+            <div class="content">
+                <h2>RAYEN</h2>
+                <p class="tag">WEB DESIGNER</p>
+                <p class="about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis minima provident esse hic </p>
             </div>
-            <div class="buttons absolute bottom-4 w-full px-4 flex justify-between items-center">
-                <div class="social flex gap-4">
-                    <i class="fab fa-instagram text-white cursor-pointer hover:text-green-300"></i>
-                    <i class="fab fa-twitter text-white cursor-pointer hover:text-green-300"></i>
-                    <i class="fab fa-github text-white cursor-pointer hover:text-green-300"></i>
+
+            <div class="buttons">
+                <div class="social">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
                 </div>
-                <a href="#" class="link text-green-500 hover:bg-green-300 hover:text-white py-1 px-2 rounded-md text-sm">project <i class="fas fa-up-right-from-square"></i></a>
+                <a href="#" class="link">project <i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
+
         </div>
+
     </div>
 </body>
-
+  </body>
 </html>
